@@ -1,11 +1,7 @@
 ## EX. NO:2 IMPLEMENTATION OF PLAYFAIR CIPHER
-
- 
-
+## NAME: SANTHOSH S
+## REG.NO: 212224100052
 ## AIM:
- 
-
- 
 
 To write a C program to implement the Playfair Substitution technique.
 
@@ -19,7 +15,7 @@ To encrypt a message, one would break the message into digrams (groups of 2 lett
 3.	If the letters appear on the same column of your table, replace them with the letters immediately below respectively
 4.	If the letters are not on the same row or column, replace them with the letters on the same row respectively but at the other pair of corners of the rectangle defined by the original pair.
 ## EXAMPLE:
-![image](https://github.com/Hemamanigandan/EX-NO-2-/assets/149653568/e6858d4f-b122-42ba-acdb-db18ec2e9675)
+<img width="558" height="380" alt="example_img" src="https://github.com/user-attachments/assets/0e90c4a2-9fdc-445c-b360-728c47af2cad" />
 
  
 
@@ -34,7 +30,7 @@ STEP-5: Display the obtained cipher text.
 
 
 
-Program:
+## Program:
 ```c
 #include <stdio.h>
 #include <string.h>
@@ -215,9 +211,8 @@ int main() {
 ```
 
 
+## Output:
+<img width="381" height="367" alt="Screenshot 2026-04-27 091241" src="https://github.com/user-attachments/assets/74cc9286-9ec9-4906-ae7f-6e3bc2b9b688" />
 
-
-
-Output:
-<img width="817" height="571" alt="image" src="https://github.com/user-attachments/assets/90dbd27f-d2c2-407b-a667-4db3df070128" />
-
+## Result:
+Thus the implementation of the Playfair Substitution technique is executed successfully.
